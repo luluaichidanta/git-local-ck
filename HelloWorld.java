@@ -1,5 +1,13 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("我创建的新的分支lulu");    }
+        //测试for循环中变量的更迭
+        int sum = 0;
+        for (int i = 0; i < 5; ++i) {
+            sum += i;
+            System.out.println("i = " + i);
+            System.out.println("sum = " + sum);
+            System.out.println("-------------------------------");
+        }
+        System.out.println("for循环已经结束，程序退出。");
+    }
 }
